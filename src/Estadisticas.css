@@ -1,0 +1,56 @@
+.personas-list {
+    margin: 20px 0;
+    padding: 0;
+  }
+  
+  .personas-list h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333; 
+  }
+  
+  .personas-list ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .personas-list li {
+    font-size: 18px;
+    margin-bottom: 8px;
+    color: #555; 
+  }
+  
+  
+  .personas-list li::before {
+    content: "\2022";
+    color: #ff3b30; 
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+    margin-right: 0.5em;
+  }
+  
+ .titulo {
+    text-align: center; 
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 36px;
+    margin: 25px 0; 
+    text-transform: uppercase; 
+    letter-spacing: 2px; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); 
+  }
+
+
+.personas-list {
+    text-align: center;
+  }
+  
+  .personas-list ul {
+    list-style: none;
+    padding: 0;
+    display: inline-block;
+    text-align: left; 
+  }
+  

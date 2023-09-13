@@ -1,0 +1,49 @@
+.contacto-container {
+    border: 2px solid red; 
+    padding: 20px; 
+    width: 300px; 
+    margin-left: auto; 
+    margin-right: auto; 
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  .input-field {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button.submit-button {
+    background-color: red; 
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+
+  button.submit-button:hover {
+    background-color: darkred; 
+  }
+
+  .titulo {
+    text-align: center; 
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 36px;
+    margin: 25px 0; 
+    text-transform: uppercase; 
+    letter-spacing: 2px; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); 
+  }
